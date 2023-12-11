@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px; 
 }
 </style>
-# Hamsters!
+# Ducks!
 
 <li>Ducks are furry, small, rodents that are often energetic. They make great first time pets, as they are low maintenance and small in size!</li>
 
