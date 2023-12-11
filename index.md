@@ -17,11 +17,11 @@ title: Student Blog
 <style>
 <body>
 h2, h3, h4, h5, h6 {
-            font-family: 'Georgia', serif;
+            font-family: 'Georgia'; serif;
             font-size: 20px;
         }
 h1 {
-    font-family: 'Times New Roman', serif;
+    font-family: 'Times New Roman'; serif;
     font-size: 40 px;
 }
 </body>
