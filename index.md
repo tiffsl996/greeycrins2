@@ -15,10 +15,14 @@ title: Student Blog
     </style>
 </head>
 <body>
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
             font-family: 'Georgia', serif;
             font-size: 20px;
         }
+h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 40 px;
+}
 </body>
 </html>
 
