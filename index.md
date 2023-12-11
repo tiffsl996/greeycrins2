@@ -29,10 +29,9 @@ title: Student Blog
     </style>
 
 
-</body>
-</html>
 
-# All about Tiffany!
+
+<h1>All about Tiffany!</h1>
 
 <h1>Table of contents</h1>
 1.  overview
