@@ -11,11 +11,11 @@ courses: { compsci: {week: 1} }
 <style>
 body {
     background-color: #acbda1;
-    color: #510400;
+    color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    background-color: #fff8e7;
+    background-color: #800000;
     padding: 10px; 
     border-radius: 10px; 
 }
