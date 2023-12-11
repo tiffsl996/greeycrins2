@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 </body>
 </html>
 
-<h1>All about Tiffany!</h1>
+# <h1>All about Tiffany!</h1>
 
 <h2>Table of contents</h2>
 1.  overview
