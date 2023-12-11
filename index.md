@@ -14,6 +14,7 @@ title: Student Blog
         }
     </style>
 </head>
+<style>
 <body>
 h2, h3, h4, h5, h6 {
             font-family: 'Georgia', serif;
