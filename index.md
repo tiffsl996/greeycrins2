@@ -14,16 +14,13 @@ title: Student Blog
         }
     </style>
 </head>
-<style>
+
 <body>
-h2, h3, h4, h5, h6 {
-            font-family: 'Georgia'; serif;
-            font-size: 20px;
-        }
-h1 {
-    font-family: 'Times New Roman'; serif;
-    font-size: 40 px;
-}
+    <h1>Table of Contents</h1>
+    <p>1.  overview
+2.  hobbbies + interests
+3.  preferences
+4.  pictures for reference</p>
 </body>
 </html>
 
