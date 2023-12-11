@@ -11,7 +11,7 @@ type: hacks
 <style>
 body {
     background-color: #daf0ff;
-    color: #daf0ff;
+    color: #F5F5DC;
 }
 
 h1, h2, h3, h4, h5, h6 {
