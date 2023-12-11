@@ -7,8 +7,8 @@ title: Student Blog
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    All About Tiffany!
-    <style>
+       
+<style>
         body {
             font-family: 'Courier New';monospace;
         }
@@ -26,13 +26,7 @@ title: Student Blog
             font-family: 'Times New Roman'; serif;
         }
     </style>
-<body>
-    <h1>This is a Heading 1</h1>
-    <h2>This is a Heading 2</h2>
-    <h3>This is a Heading 3</h3>
-    <h4>This is a Heading 4</h4>
-    <h5>This is a Heading 5</h5>
-    <h6>This is a Heading 6</h6>
+
 
 </body>
 </html>
