@@ -8,6 +8,21 @@ type: tangibles
 courses: { compsci: {week: 1} }
 ---
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Week</title>
+    <style>
+        body {
+            font-family: 'Courier New'; monospace;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
 ### Summary of Accomplishments - 12/08/23
 
 <li>I finished troubleshooting,I was really struggling</li>
