@@ -8,6 +8,19 @@ courses: { compsci: {week: 0} }
 type: hacks
 ---
 
+<style>
+body {
+    background-color: #daf0ff;
+    color: #331800;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    background-color: #fec5e5;
+    padding: 10px; 
+    border-radius: 20px; 
+}
+</style>
+
 ## Hacks
 hacks!
 
