@@ -15,15 +15,13 @@ title: Student Blog
     </style>
 </head>
 <body>
-    <h1>Table of Contents</h1>
-    <p>1.  overview
-2.  hobbbies + interests
-3.  preferences
-4.  pictures for reference</p>
+    
 </body>
 </html>
 
-## Table of contents
+## All about Tiffany!
+
+# Table of contents
 1.  overview
 2.  hobbbies + interests
 3.  preferences
