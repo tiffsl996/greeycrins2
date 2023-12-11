@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 ## Hacks
 hacks!
 
-#quotes
+# quotes
 1. If you're the smartest person in the room, you're in the wrong room
 2. If one studies but does not tink, they are caught in a trap
 3. real knowledge is to know the extent of one's ignorance
