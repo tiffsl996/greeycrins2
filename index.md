@@ -7,7 +7,7 @@ title: Student Blog
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All About Tiffany!</title>
+    All About Tiffany!
     <style>
         body {
             font-family: 'Courier New';monospace;
@@ -23,7 +23,7 @@ title: Student Blog
         }
 
         h1, h2, h3, h4, h5, h6 {
-            font-family: 'Times New Roman', serif;
+            font-family: 'Times New Roman'; serif;
         }
     </style>
 <body>
