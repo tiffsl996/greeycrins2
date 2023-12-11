@@ -15,7 +15,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    background-color: ##800000;
+    background-color: #800000;
     padding: 10px; 
     border-radius: 20px; 
 }
