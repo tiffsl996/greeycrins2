@@ -29,7 +29,7 @@ title: Student Blog
     </style>
 
 
-theme: jekyll-theme-cayman
+
 
 <h1>All about Tiffany!</h1>
 
@@ -52,5 +52,5 @@ I like making music. I play piano, trombone, and violin. I'm currently in band a
 
 <h1>pictures for reference</h1>
 
-![I like triangles](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Yellow_triangle.svg/1200px-Yellow_triangle.svg.png)
+![I like triangles](https://static.wikia.nocookie.net/unanything/images/6/63/Triangle.png/revision/latest/scale-to-width-down/2000?cb=20220503180756)
 (above) picture of my favorite shape 
