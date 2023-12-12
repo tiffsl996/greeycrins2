@@ -29,7 +29,7 @@ title: Student Blog
     </style>
 
 
-
+theme: jekyll-theme-cayman
 
 <h1>All about Tiffany!</h1>
 
