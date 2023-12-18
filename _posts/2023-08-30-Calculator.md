@@ -14,19 +14,37 @@ courses: { compsci: {week: 2} }
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator MD</title>
     <style>
-        /* Basic styling to center the game */
+        /* Basic styling to center the content */
         body {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             height: 100vh;
             margin: 0;
+            position: relative; /* Make the body a positioning context */
         }
-    </style>
-</head>
-<body>
-    <!-- Your image goes here -->
-    <img src="path/to/your/image.jpg" alt="Your Image" style="width: 100%; height: auto;">
+  #calculator-container {
+            position: relative; /* Ensure the container is also a positioning context */
+            z-index: 2; /* Set the calculator container above other elements */
+        }
+#your-image {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1; /* Set the image behind other elements */
+        }
+        <body>
+<img id="your-image" src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L2hpcHBvdW5pY29ybl9jaHJpc3RtYXNfZ3JlZW5fd2F0ZXJjb2xvcl9wYXR0ZXJuX2JhY2tncm91bmRfMTVmOTAzOGMtNDNhMi00ZGM3LThiNjgtOWMyOTZhYjdjMDA0XzEuanBn.jpg" alt="christmasbackground">
+  
+  <div id="calculator-container">
+        <!-- Your calculator HTML -->
+        <div id="animation">
+        <!-- Your calculator HTML -->
+        <div id="animation">
+            <!-- Calculator content goes here -->
+        </div>
 
 <style>
   .calculator-output {
