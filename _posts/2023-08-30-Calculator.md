@@ -20,7 +20,7 @@ courses: { compsci: {week: 2} }
   
     padding: 0.25em;
     font-size: 20px;
-    border: 5px maroon;
+    border: 8px maroon;
   
     display: flex;
     align-items: center;
@@ -52,6 +52,8 @@ courses: { compsci: {week: 2} }
       <div class="calculator-number">0</div>
       <div class="calculator-number">.</div>
       <div class="calculator-equals">=</div>
+      <!--row 5-->
+      <div class="calculator-operation">/</div>
   </div>
 </div>
 
