@@ -7,6 +7,26 @@ description: Grab of the Calculator from APCSA repo.
 type: tangibles
 courses: { compsci: {week: 2} }
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator MD</title>
+    <style>
+        /* Basic styling to center the game */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Your image goes here -->
+    <img src="path/to/your/image.jpg" alt="Your Image" style="width: 100%; height: auto;">
 
 <style>
   .calculator-output {
@@ -172,11 +192,8 @@ courses: { compsci: {week: 2} }
 <!-- 
 Vanta animations just for fun, load JS onto the page
 -->
-<script src="{{site.baseurl}}/assets/js/three.r119.min.js"></script>
-<script src="{{site.baseurl}}/assets/js/vanta.halo.min.js"></script>
-<script src="{{site.baseurl}}/assets/js/vanta.birds.min.js"></script>
-<script src="{{site.baseurl}}/assets/js/vanta.net.min.js"></script>
-<script src="{{site.baseurl}}/assets/js/vanta.rings.min.js"></script>
+<!-- Replace the Vanta.js scripts with an image -->
+<img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L2hpcHBvdW5pY29ybl9jaHJpc3RtYXNfZ3JlZW5fd2F0ZXJjb2xvcl9wYXR0ZXJuX2JhY2tncm91bmRfMTVmOTAzOGMtNDNhMi00ZGM3LThiNjgtOWMyOTZhYjdjMDA0XzEuanBn.jpg" alt="christmasbackground" style="width: 100%; height: auto;">
 
 <script>
 // setup vanta scripts as functions
@@ -198,3 +215,5 @@ vantaInstance({
   gyroControls: false
 });
 </script>
+</body>
+</html>
