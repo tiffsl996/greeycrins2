@@ -61,6 +61,9 @@ courses: { compsci: {week: 2} }
 <!-- Add a containter for the animation -->
   <div id="animation">
   <div class="calculator-container">
+<!-- Add a containter for the animation -->
+  <div id="animation">
+  <div class="calculator-container">
     <!--result-->
     <div class="calculator-output" id="output">0</div>
     <!--row 1-->
