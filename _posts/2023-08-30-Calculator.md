@@ -43,27 +43,24 @@ courses: { compsci: {week: 2} }
         }
         /* Styles for specific button types */
         .calculator-number {
-            background-color: #4CAF50; /* Green for numbers */
-            color: white;
+            background-color: #800000; /* Green for numbers */
+            color: beige;
         }
         .calculator-operation {
             background-color: #FFA500; /* Orange for operations */
+            color: beige;
         }
         .calculator-clear,
         .calculator-equals {
-            background-color: #008CBA; /* Blue for clear and equals buttons */
-            color: white;
+            background-color: #00008B; /* Blue for clear and equals buttons */
+          color: beige;
         }
 </style>
 
 
-</style>
-    padding: 0.25em;
-    font-size: 20px;
-    border: 8px maroon;
-    display: flex;
-    align-items: center;
-    <div id="animation">
+<!-- Add a containter for the animation -->
+  <div id="animation">
+  <div class="calculator-container">
     <!--result-->
     <div class="calculator-output" id="output">0</div>
     <!--row 1-->
