@@ -52,18 +52,14 @@ courses: { compsci: {week: 2} }
         .calculator-clear,
         .calculator-equals {
             background-color: #008CBA; /* Blue for clear and equals buttons */
-            color: white;
+          color: white;
         }
 </style>
 
 
-</style>
-    padding: 0.25em;
-    font-size: 20px;
-    border: 8px maroon;
-    display: flex;
-    align-items: center;
-    <div id="animation">
+<!-- Add a containter for the animation -->
+  <div id="animation">
+  <div class="calculator-container">
     <!--result-->
     <div class="calculator-output" id="output">0</div>
     <!--row 1-->
