@@ -9,40 +9,51 @@ courses: { compsci: {week: 2} }
 
 <html lang="en">
 <head>
-
-<style>
-  /<style>
-  /* Styles for calculator buttons */
-  .calculator-number,
-  .calculator-operation,
-  .calculator-clear,
-  .calculator-equals {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-    font-size: 20px;
-    text-align: center;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    background-color: #f0f0f0; /* Default background color */
-    color: #333; /* Default text color */
-  }
-
-  /* Styles for specific button types */
-  .calculator-container .calculator-number {
-    background-color: #4CAF50; /* Green for numbers */
-    color: white;
-  }
-
-  .calculator-container .calculator-operation {
-    background-color: #FFA500; /* Orange for operations */
-  }
-
-  .calculator-container .calculator-clear,
-  .calculator-container .calculator-equals {
-    background-color: #008CBA; /* Blue for clear and equals buttons */
-    color: white;
-  }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator MD</title>
+    <style>
+        /* Basic styling to center the content */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #calculator-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 5px;
+            max-width: 250px; /* Adjust as needed */
+        }
+        /* Styles for calculator buttons */
+        .calculator-number,
+        .calculator-operation,
+        .calculator-clear,
+        .calculator-equals {
+            width: 100%;
+            height: 50px;
+            font-size: 20px;
+            text-align: center;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            background-color: #f0f0f0; /* Default background color */
+            color: #333; /* Default text color */
+        }
+        /* Styles for specific button types */
+        .calculator-number {
+            background-color: #4CAF50; /* Green for numbers */
+            color: white;
+        }
+        .calculator-operation {
+            background-color: #FFA500; /* Orange for operations */
+        }
+        .calculator-clear,
+        .calculator-equals {
+            background-color: #008CBA; /* Blue for clear and equals buttons */
+            color: white;
+        }
 </style>
 
 
