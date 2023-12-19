@@ -6,11 +6,12 @@ description: Grab Calculator Code and place in IPYNB
 type: hacks
 courses: { compsci: {week: 2} }
 ---
-<DOCTYPE html>
+
 <html lang="en">
 <head>
 
 <style>
+  /<style>
   /* Styles for calculator buttons */
   .calculator-number,
   .calculator-operation,
@@ -28,20 +29,22 @@ courses: { compsci: {week: 2} }
   }
 
   /* Styles for specific button types */
-  .calculator-number {
+  .calculator-container .calculator-number {
     background-color: #4CAF50; /* Green for numbers */
     color: white;
   }
 
-  .calculator-operation {
+  .calculator-container .calculator-operation {
     background-color: #FFA500; /* Orange for operations */
   }
 
-  .calculator-clear,
-  .calculator-equals {
+  .calculator-container .calculator-clear,
+  .calculator-container .calculator-equals {
     background-color: #008CBA; /* Blue for clear and equals buttons */
     color: white;
   }
+</style>
+
 
 </style>
     padding: 0.25em;
