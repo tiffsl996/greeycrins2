@@ -194,15 +194,18 @@ courses: { compsci: {week: 2} }
       output.innerHTML = "0";
       nextReady = true;
   }
-  // squared function
+    // Squared button listener
+    squared.addEventListener("click", function() {
+        square();
+    });
+    // Squared action
     function square() {
-        if (firstNumber !== null) {
-            const currentNumber = parseFloat(output.innerHTML);
-            const result = Math.pow(currentNumber, 2);
-            output.innerHTML = result.toString();
-            // Don't update firstNumber or set nextReady, as they are not needed for squared operation
-        }
-    }
+      if (firstNumber !== null) {
+           const currentNumber = parseFloat(output.innerHTML);
+           const result = Math.pow(currentNumber, 2);
+           output.innerHTML = result.toString();
+   }
+  }
 </script>
 <!-- 
 Vanta animations just for fun, load JS onto the page
