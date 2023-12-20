@@ -194,13 +194,14 @@ courses: { compsci: {week: 2} }
       output.innerHTML = "0";
       nextReady = true;
   }
-    function square() {
+     function square() {
         if (firstNumber !== null) {
             const currentNumber = parseFloat(output.innerHTML);
-            const result = currentNumber * currentNumber;
+            const result = Math.pow(currentNumber, 2); // Use Math.pow to calculate the square
             output.innerHTML = result.toString();
             firstNumber = result;
-            nextReady = true;      }
+            nextReady = true;
+        }
     }
 </script>
 <!-- 
