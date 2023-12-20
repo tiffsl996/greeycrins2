@@ -145,13 +145,6 @@ courses: { compsci: {week: 2} }
       operator = choice;
       output.innerHTML = firstNumber.toString();
       nextReady = true;
-  }
-  // Squared action
-    function square() {
-        const num = parseFloat(currentNumber);
-        currentNumber = (num * num).toString();
-        output.innerHTML = currentNumber;
-    }
   // Calculator
   function calculate (first, second) { // function to calculate the result of the equation
       let result = 0;
