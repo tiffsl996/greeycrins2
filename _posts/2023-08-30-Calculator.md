@@ -194,13 +194,13 @@ courses: { compsci: {week: 2} }
       output.innerHTML = "0";
       nextReady = true;
   }
-  function square(){
-      if (firstNumber != null) {
-          const result = calculate(parseFloat(output.innerHTML), 2); // Square the current number
-          output.innerHTML = result.toString();
-          firstNumber = result;
-          nextReady = true;
-      }
+    function square() {
+        if (firstNumber !== null) {
+            const currentNumber = parseFloat(output.innerHTML);
+            const result = currentNumber * currentNumber;
+            output.innerHTML = result.toString();
+            firstNumber = result;
+            nextReady = true;      }
     }
 </script>
 <!-- 
