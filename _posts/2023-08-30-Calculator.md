@@ -88,6 +88,8 @@ courses: { compsci: {week: 2} }
     <div class="calculator-equals">=</div>
     <!--row 5-->
     <div class="calculator-operation">/</div>
+    <div class= "calculator-operation">^</div>
+
   </div>
 </div>
 
@@ -163,6 +165,9 @@ courses: { compsci: {week: 2} }
           case "/":
               result = first / second;
               break;
+          case "^":
+              result = first ^ second;
+              break;
           default: 
               break;
       }
@@ -192,6 +197,13 @@ courses: { compsci: {week: 2} }
       output.innerHTML = "0";
       nextReady = true;
   }
+    function square()
+            if (firstNumber != null) {
+                const result = calculate(parseFloat(output.innerHTML), 2); // Square the current number
+                output.innerHTML = result.toString();
+                firstNumber = result;
+                nextReady = true;
+            }
 </script>
 <!-- 
 Vanta animations just for fun, load JS onto the page
