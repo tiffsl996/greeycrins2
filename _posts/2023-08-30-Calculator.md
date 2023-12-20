@@ -194,13 +194,13 @@ courses: { compsci: {week: 2} }
       output.innerHTML = "0";
       nextReady = true;
   }
-     function square() {
+  // squared function
+    function square() {
         if (firstNumber !== null) {
             const currentNumber = parseFloat(output.innerHTML);
-            const result = Math.pow(currentNumber, 2); // Use Math.pow to calculate the square
+            const result = Math.pow(currentNumber, 2);
             output.innerHTML = result.toString();
-            firstNumber = result;
-            nextReady = true;
+            // Don't update firstNumber or set nextReady, as they are not needed for squared operation
         }
     }
 </script>
