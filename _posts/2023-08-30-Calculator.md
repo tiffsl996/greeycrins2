@@ -194,18 +194,7 @@ courses: { compsci: {week: 2} }
       output.innerHTML = "0";
       nextReady = true;
   }
-    // Squared button listener
-    squared.addEventListener("click", function() {
-        square();
-    });
-    // Squared action
-    function square() {
-      if (firstNumber !== null) {
-           const currentNumber = parseFloat(output.innerHTML);
-           const result = Math.pow(currentNumber, 2);
-           output.innerHTML = result.toString();
-   }
-  }
+  
 </script>
 <!-- 
 Vanta animations just for fun, load JS onto the page
