@@ -89,10 +89,7 @@ courses: { compsci: {week: 2} }
     <!--row 5-->
     <div class="calculator-operation">/</div>
     <div class="calculator-operation">^</div>
-
   </div>
-</div>
-
 <!-- JavaScript (JS) implementation of the calculator. -->
 <script>
   // initialize important variables to manage calculations
@@ -197,13 +194,14 @@ courses: { compsci: {week: 2} }
       output.innerHTML = "0";
       nextReady = true;
   }
-    function square()
-            if (firstNumber != null) {
-                const result = calculate(parseFloat(output.innerHTML), 2); // Square the current number
-                output.innerHTML = result.toString();
-                firstNumber = result;
-                nextReady = true;
-            }
+  function square(){
+      if (firstNumber != null) {
+          const result = calculate(parseFloat(output.innerHTML), 2); // Square the current number
+          output.innerHTML = result.toString();
+          firstNumber = result;
+          nextReady = true;
+      }
+    }
 </script>
 <!-- 
 Vanta animations just for fun, load JS onto the page
