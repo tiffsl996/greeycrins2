@@ -146,6 +146,12 @@ courses: { compsci: {week: 2} }
       output.innerHTML = firstNumber.toString();
       nextReady = true;
   }
+  // Squared action
+    function square() {
+        const num = parseFloat(currentNumber);
+        currentNumber = (num * num).toString();
+        output.innerHTML = currentNumber;
+    }
   // Calculator
   function calculate (first, second) { // function to calculate the result of the equation
       let result = 0;
@@ -194,7 +200,7 @@ courses: { compsci: {week: 2} }
       output.innerHTML = "0";
       nextReady = true;
   }
-  
+
 </script>
 <!-- 
 Vanta animations just for fun, load JS onto the page
