@@ -47,7 +47,7 @@ courses: { compsci: {week: 2} }
             color: beige;
         }
         .calculator-operation {
-            background-color: #FFA500; /* Orange for operations */
+            background-color: #9400d3; /* Orange for operations */
             color: beige;
         }
         .calculator-clear,
