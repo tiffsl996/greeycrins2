@@ -89,6 +89,7 @@ courses: { compsci: {week: 2} }
     <!--row 5-->
     <div class="calculator-operation">/</div>
     <div class="calculator-operation">^</div>
+    <div class="calculator-operation">@</div>
   </div>
 <!-- JavaScript (JS) implementation of the calculator. -->
 <script>
@@ -164,6 +165,9 @@ courses: { compsci: {week: 2} }
               break;
           case "^":
               result = first ** second;
+              break;
+          case "@":
+              result = first *** second;
               break;
           default: 
               break;
