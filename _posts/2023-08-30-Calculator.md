@@ -131,7 +131,7 @@ courses: { compsci: {week: 2} }
     button.addEventListener("click", function() {
       operation(button.textContent);
     });
-  });
+    });
   // Operator action
   function operation (choice) { // function to input operations into the calculator
       if (firstNumber == null) { // once the operation is chosen, the displayed number is stored into the variable firstNumber
@@ -145,6 +145,7 @@ courses: { compsci: {week: 2} }
       operator = choice;
       output.innerHTML = firstNumber.toString();
       nextReady = true;
+      }
   // Calculator
   function calculate (first, second) { // function to calculate the result of the equation
       let result = 0;
