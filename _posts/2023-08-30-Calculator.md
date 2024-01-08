@@ -167,7 +167,7 @@ courses: { compsci: {week: 2} }
               result = first ** second;
               break;
           case "@":
-              result = first *** second;
+              result = (first * second) - (second-first);
               break;
           default: 
               break;
