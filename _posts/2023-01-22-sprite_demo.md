@@ -10,9 +10,9 @@ courses: { compsci: {week: 3} }
 <body>
     <div>
         <canvas id="spriteContainer"> <!-- Within the base div is a canvas. An HTML canvas is used only for graphics. It allows the user to access some basic functions related to the image created on the canvas (including animation) -->
-            <img id="hamsterSprite" src="/Users/tiffsl/vscode/greeycrins2/_posts/PC Computer - Box Critters - Hamster.png">  // change sprite here
+            <img id="hamsterSprite" src="{{site.baseurl}}/images/PC Computer - Box Critters - Hamster.png">  // change sprite here
         </canvas>
-        <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animaiton works -->
+        <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animaiton works -->s
             <input type="radio" name="animation" id="idle" checked>
             <label for="idle">Idle</label><br>
             <input type="radio" name="animation" id="barking">
@@ -32,7 +32,7 @@ courses: { compsci: {week: 3} }
         const SPRITE_HEIGHT = 704; // matches sprite pixel height
         const FRAME_LIMIT = 4;  // matches number of frames per sprite row, this code assume each row is same
 
-        const SCALE_FACTOR = 2;  // control size of sprite on canvas
+        const SCALE_FACTOR = 1;  // control size of sprite on canvas
         canvas.width = SPRITE_WIDTH * SCALE_FACTOR;
         canvas.height = SPRITE_HEIGHT * SCALE_FACTOR;
 
