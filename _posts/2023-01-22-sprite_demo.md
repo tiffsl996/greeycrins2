@@ -36,17 +36,18 @@ courses: { compsci: {week: 3} }
         canvas.width = SPRITE_WIDTH * SCALE_FACTOR;
         canvas.height = SPRITE_HEIGHT * SCALE_FACTOR;
 
-        class Hamster {
-            constructor() {
-                this.image = document.getElementById("hamsterSprite");
-                this.x = 0;
-                this.y = 0;
-                this.minFrame = 0;
-                this.maxFrame = FRAME_LIMIT;
-                this.frameX = 0;
-                this.frameY = 0;
-            }
+class Hamster {
+    constructor() {
+        this.image = document.getElementById("hamsterSprite");
+        this.x = 50; // Set an initial value for x (adjust as needed)
+        this.y = 50; // Set an initial value for y (adjust as needed)
+        this.minFrame = 0;
+        this.maxFrame = FRAME_LIMIT;
+        this.frameX = 0;
+        this.frameY = 0;
+    }
 
+    
             // draw dog object
             draw(context) {
                 context.drawImage(
