@@ -12,11 +12,11 @@ courses: { compsci: {week: 3} }
         <canvas id="spriteContainer"> <!-- Within the base div is a canvas. An HTML canvas is used only for graphics. It allows the user to access some basic functions related to the image created on the canvas (including animation) -->
             <img id="hamsterSprite" src="{{site.baseurl}}/images/PC Computer - Box Critters - Hamster.png">  // change sprite here
         </canvas>
-        <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animaiton works -->s
+        <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animaiton works -->
             <input type="radio" name="animation" id="idle" checked>
             <label for="idle">Idle</label><br>
-            <input type="radio" name="animation" id="barking">
-            <label for="barking">Barking</label><br>
+            <input type="radio" name="animation" id="turning">
+            <label for="turning">Turning</label><br>
             <input type="radio" name="animation" id="walking">
             <label for="walking">Walking</label><br>
         </div>
@@ -85,7 +85,7 @@ class Hamster {
                     case 'idle':
                         hamster.frameY = 0;
                         break;
-                    case 'barking':
+                    case 'turning':
                         hamster.frameY = 1;
                         break;
                     case 'walking':
