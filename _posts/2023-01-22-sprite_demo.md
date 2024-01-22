@@ -10,7 +10,7 @@ courses: { compsci: {week: 3} }
 <body>
     <div>
         <canvas id="spriteContainer"> <!-- Within the base div is a canvas. An HTML canvas is used only for graphics. It allows the user to access some basic functions related to the image created on the canvas (including animation) -->
-            <img id="dogSprite" src="/teacher/images/dogSprites.png">  // change sprite here
+            <img id="hamsterSprite" src="<PC Computer - Box Critters - Hamster.png>">  // change sprite here
         </canvas>
         <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animaiton works -->
             <input type="radio" name="animation" id="idle" checked>
@@ -36,9 +36,9 @@ courses: { compsci: {week: 3} }
         canvas.width = SPRITE_WIDTH * SCALE_FACTOR;
         canvas.height = SPRITE_HEIGHT * SCALE_FACTOR;
 
-        class Dog {
+        class Hamster {
             constructor() {
-                this.image = document.getElementById("dogSprite");
+                this.image = document.getElementById("hamsterSprite");
                 this.x = 0;
                 this.y = 0;
                 this.minFrame = 0;
@@ -73,7 +73,7 @@ courses: { compsci: {week: 3} }
         }
 
         // dog object
-        const dog = new Dog();
+        const hamster = new Hamster();
 
         // update frameY of dog object, action from idle, bark, walk radio control
         const controls = document.getElementById('controls');
@@ -82,13 +82,13 @@ courses: { compsci: {week: 3} }
                 const selectedAnimation = event.target.id;
                 switch (selectedAnimation) {
                     case 'idle':
-                        dog.frameY = 0;
+                        hamster.frameY = 0;
                         break;
                     case 'barking':
-                        dog.frameY = 1;
+                        hamster.frameY = 1;
                         break;
                     case 'walking':
-                        dog.frameY = 2;
+                        hamster.frameY = 2;
                         break;
                     default:
                         break;
@@ -102,10 +102,10 @@ courses: { compsci: {week: 3} }
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
             // Draws the current frame of the sprite.
-            dog.draw(ctx);
+            hamster.draw(ctx);
 
             // Updates the `frameX` property to prepare for the next frame in the sprite sheet.
-            dog.update();
+            hamster.update();
 
             // Uses `requestAnimationFrame` to synchronize the animation loop with the display's refresh rate,
             // ensuring smooth visuals.
