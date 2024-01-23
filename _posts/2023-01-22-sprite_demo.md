@@ -28,8 +28,8 @@ courses: { compsci: {week: 3} }
     window.addEventListener('load', function () {
         const canvas = document.getElementById('spriteContainer');
         const ctx = canvas.getContext('2d');
-        const SPRITE_WIDTH = 412;  // matches sprite pixel width
-        const SPRITE_HEIGHT = 704; // matches sprite pixel height
+        const SPRITE_WIDTH = 62;  // matches sprite pixel width
+        const SPRITE_HEIGHT = 94; // matches sprite pixel height
         const FRAME_LIMIT = 4;  // matches number of frames per sprite row, this code assume each row is same
 
         const SCALE_FACTOR = 2;  // control size of sprite on canvas
@@ -39,8 +39,8 @@ courses: { compsci: {week: 3} }
 class Hamster {
     constructor() {
         this.image = document.getElementById("hamsterSprite");
-        this.x = 20; // Set an initial value for x (adjust as needed)
-        this.y = 20; // Set an initial value for y (adjust as needed)
+        this.x = 50; // Set an initial value for x (adjust as needed)
+        this.y = 50; // Set an initial value for y (adjust as needed)
         this.minFrame = 0;
         this.maxFrame = FRAME_LIMIT;
         this.frameX = 0;
