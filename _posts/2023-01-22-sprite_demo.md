@@ -28,7 +28,7 @@ courses: { compsci: {week: 3} }
     window.addEventListener('load', function () {
         const canvas = document.getElementById('spriteContainer');
         const ctx = canvas.getContext('2d');
-        const SPRITE_WIDTH = 104;  // matches sprite pixel width
+        const SPRITE_WIDTH = 110;  // matches sprite pixel width
         const SPRITE_HEIGHT = 130; // matches sprite pixel height
         const FRAME_LIMIT = 4;  // matches number of frames per sprite row, this code assume each row is same
 
@@ -111,10 +111,13 @@ class Hamster {
 
             // Uses `requestAnimationFrame` to synchronize the animation loop with the display's refresh rate,
             // ensuring smooth visuals.
-            requestAnimationFrame(animate);
-        }
+            setTimeout(function () {
+        // Use `requestAnimationFrame` to continue the animation loop
+        requestAnimationFrame(animate);
+    }, 1000 / 10); // Adjust the divisor to set the desired frames per second
+}
 
-        // run 1st animate
-        animate();
+// run 1st animate
+animate();
     });
 </script>
