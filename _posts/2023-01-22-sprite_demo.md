@@ -63,6 +63,7 @@ class Hamster {
                 );
             }
 
+
             // update frameX of object
             update() {
                 if (this.frameX < this.maxFrame) {
