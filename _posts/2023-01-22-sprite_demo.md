@@ -32,14 +32,14 @@ courses: { compsci: {week: 3} }
         const SPRITE_HEIGHT = 704; // matches sprite pixel height
         const FRAME_LIMIT = 4;  // matches number of frames per sprite row, this code assume each row is same
 
-        const SCALE_FACTOR = 1;  // control size of sprite on canvas
+        const SCALE_FACTOR = 2;  // control size of sprite on canvas
         canvas.width = SPRITE_WIDTH * SCALE_FACTOR;
         canvas.height = SPRITE_HEIGHT * SCALE_FACTOR;
 
 class Hamster {
     constructor() {
         this.image = document.getElementById("hamsterSprite");
-        this.x = 50; // Set an initial value for x (adjust as needed)
+        this.x = 80; // Set an initial value for x (adjust as needed)
         this.y = 50; // Set an initial value for y (adjust as needed)
         this.minFrame = 0;
         this.maxFrame = FRAME_LIMIT;
