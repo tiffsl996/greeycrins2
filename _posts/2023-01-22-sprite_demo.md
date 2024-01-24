@@ -29,7 +29,7 @@ courses: { compsci: {week: 3} }
         const canvas = document.getElementById('spriteContainer');
         const ctx = canvas.getContext('2d');
         const SPRITE_WIDTH = 110;  // matches sprite pixel width
-        const SPRITE_HEIGHT = 145; // matches sprite pixel height
+        const SPRITE_HEIGHT = 120; // matches sprite pixel height
         const FRAME_LIMIT = 4;  // matches number of frames per sprite row, this code assume each row is same
 
         const SCALE_FACTOR = 2;  // control size of sprite on canvas
@@ -114,7 +114,7 @@ class Hamster {
             setTimeout(function () {
         // Use `requestAnimationFrame` to continue the animation loop
         requestAnimationFrame(animate);
-    }, 2000 / 10); // Adjust the divisor to set the desired frames per second
+    }, 3000 / 10); // Adjust the divisor to set the desired frames per second
 }
 
 // run 1st animate
