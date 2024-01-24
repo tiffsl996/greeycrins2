@@ -39,7 +39,7 @@ courses: { compsci: {week: 3} }
 class Hamster {
     constructor() {
         this.image = document.getElementById("hamsterSprite");
-        this.x = 40; // Set an initial value for x (adjust as needed)
+        this.x = 30; // Set an initial value for x (adjust as needed)
         this.y = 50; // Set an initial value for y (adjust as needed)
         this.minFrame = 0;
         this.maxFrame = FRAME_LIMIT;
