@@ -13,12 +13,12 @@ courses: { compsci: {week: 3} }
             <img id="hamsterSprite" src="{{site.baseurl}}/images/PC Computer - Box Critters - Hamster.png">  // change sprite here
         </canvas>
         <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animaiton works -->
-            <input type="radio" name="animation" id="idle" checked>
-            <label for="idle">Idle</label><br>
-            <input type="radio" name="animation" id="turning">
-            <label for="turning">Turning</label><br>
-            <input type="radio" name="animation" id="walking">
-            <label for="walking">Walking</label><br>
+            <input type="radio" name="animation" id="jumping" checked>
+            <label for="jumping">Jumping</label><br>
+            <input type="radio" name="animation" id="side">
+            <label for="side">Side</label><br>
+            <input type="radio" name="animation" id="back">
+            <label for="back">Back</label><br>
         </div>
     </div>
 </body>
@@ -83,13 +83,13 @@ class Hamster {
             if (event.target.tagName === 'INPUT') {
                 const selectedAnimation = event.target.id;
                 switch (selectedAnimation) {
-                    case 'idle':
+                    case 'jumping':
                         hamster.frameY = 0;
                         break;
-                    case 'turning':
+                    case 'side':
                         hamster.frameY = 1;
                         break;
-                    case 'walking':
+                    case 'back':
                         hamster.frameY = 2;
                         break;
                     default:
