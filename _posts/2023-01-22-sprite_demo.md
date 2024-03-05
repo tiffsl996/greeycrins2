@@ -46,7 +46,6 @@ class Hamster {
         this.frameX = 0;
         this.frameY = 0;
     }
-
     
             // draw dog object
             draw(context) {
@@ -62,8 +61,6 @@ class Hamster {
                     canvas.height
                 );
             }
-
-
             // update frameX of object
             update() {
                 if (this.frameX < this.maxFrame) {
@@ -116,7 +113,6 @@ class Hamster {
         requestAnimationFrame(animate);
     }, 500 / 10); // Adjust the divisor to set the desired frames per second
 }
-
 // run 1st animate
 animate();
     });
